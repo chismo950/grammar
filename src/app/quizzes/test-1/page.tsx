@@ -35,6 +35,12 @@ export default function GrammarQuizPage() {
   const [answers, setAnswers] = useState<Record<number, number>>({});
   const [submitted, setSubmitted] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    // Ensure component is mounted before checking localStorage
+    setIsMounted(true);
+  }, []);
 
   useEffect(() => {
     // Check initial theme preference
@@ -76,8 +82,12 @@ export default function GrammarQuizPage() {
 
   const score = submitted ? quiz.reduce((sum, q, i) => sum + (answers[i] === q.ans ? 1 : 0), 0) : 0;
 
+  if (!isMounted) {
+    return null; // Prevent rendering until mounted
+  }
+  
   return (
-    <div className={`container ${isDarkMode ? 'dark-mode' : 'light-mode'}`}>
+    <div className={`container ${isDarkMode ? 'dark-mode' : 'light-mode'} ${submitted ? 'selectable' : ''}`}>
       <h1>English Grammar Quiz</h1>
       <form onSubmit={handleSubmit} noValidate>
         {quiz.map((item, i) => {
@@ -146,6 +156,10 @@ export default function GrammarQuizPage() {
           border-radius: 20px;
           box-shadow: 0 4px 20px rgba(40,60,90,0.08);
           user-select: none;
+        }
+        
+        .container.selectable {
+          user-select: text;
         }
         
         .light-mode {
