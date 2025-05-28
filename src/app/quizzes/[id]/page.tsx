@@ -1,13 +1,14 @@
 'use client';
-import { useState, useEffect, FormEvent } from 'react';
+import { useState, useEffect, FormEvent, use } from 'react';
 import { Quiz } from '@/types/quiz';
 import { getQuizById } from '@/lib/quiz-loader';
 
 interface PageProps {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }
 
 export default function GrammarQuizPage({ params }: PageProps) {
+  const resolvedParams = use(params);
   const [quiz, setQuiz] = useState<Quiz>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -26,12 +27,12 @@ export default function GrammarQuizPage({ params }: PageProps) {
         setLoading(true);
         setError(null);
         
-        const quizData = await getQuizById(params.id);
+        const quizData = await getQuizById(resolvedParams.id);
         
         if (quizData && quizData.length > 0) {
           setQuiz(quizData);
         } else {
-          setError(`Quiz ${params.id} not found or empty`);
+          setError(`Quiz ${resolvedParams.id} not found or empty`);
         }
       } catch (err) {
         setError('Failed to load quiz');
@@ -42,7 +43,7 @@ export default function GrammarQuizPage({ params }: PageProps) {
     }
 
     loadQuiz();
-  }, [params.id]);
+  }, [resolvedParams.id]);
 
   useEffect(() => {
     if (!isMounted) return;
@@ -63,18 +64,18 @@ export default function GrammarQuizPage({ params }: PageProps) {
 
   useEffect(() => {
     if (isMounted) {
-      const saved = localStorage.getItem(`grammar_quiz_answers_${params.id}`);
+      const saved = localStorage.getItem(`grammar_quiz_answers_${resolvedParams.id}`);
       if (saved) {
         setAnswers(JSON.parse(saved));
       }
     }
-  }, [params.id, isMounted]);
+  }, [resolvedParams.id, isMounted]);
 
   useEffect(() => {
     if (isMounted) {
-      localStorage.setItem(`grammar_quiz_answers_${params.id}`, JSON.stringify(answers));
+      localStorage.setItem(`grammar_quiz_answers_${resolvedParams.id}`, JSON.stringify(answers));
     }
-  }, [answers, params.id, isMounted]);
+  }, [answers, resolvedParams.id, isMounted]);
 
   const handleChange = (index: number, value: number) => {
     setAnswers(prev => ({ ...prev, [index]: value }));
@@ -101,7 +102,7 @@ export default function GrammarQuizPage({ params }: PageProps) {
     return (
       <div className="container light-mode">
         <div style={{ textAlign: 'center', padding: '50px' }}>
-          <div>Loading Quiz {params.id}...</div>
+          <div>Loading Quiz {resolvedParams.id}...</div>
         </div>
         <style jsx>{`
           .container {
@@ -153,7 +154,7 @@ export default function GrammarQuizPage({ params }: PageProps) {
 
   return (
     <div className={`container ${isDarkMode ? 'dark-mode' : 'light-mode'} ${submitted ? 'selectable' : ''}`}>
-      <h1>English Grammar Quiz {params.id}</h1>
+      <h1>English Grammar Quiz {resolvedParams.id}</h1>
       <form onSubmit={handleSubmit} noValidate>
         {quiz.map((item, i) => {
           const selected = answers[i];
