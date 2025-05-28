@@ -16,7 +16,7 @@ const quiz: Question[] = [
         ans: 1,
         expl: [
             "A. weren't for – Missing 'had'; used for present unreal situations.",
-            "B. hadn't been for – ✅ Correct; 'If it hadn't been for' expresses a past unreal condition.",
+            "B. hadn't been for – 'If it hadn't been for' expresses a past unreal condition.",
             "C. were not – Lacks the preposition 'for' and uses present subjunctive, not past unreal.",
             "D. hadn't been – Omits 'for'; the idiom requires 'for'."
         ]
@@ -27,7 +27,7 @@ const quiz: Question[] = [
         ans: 1,
         expl: [
             "A. to approve – Infinitive; needs past participle.",
-            "B. approved – ✅ Correct; inversion with 'were' + past participle expresses a hypothetical condition.",
+            "B. approved – inversion with 'were' + past participle expresses a hypothetical condition.",
             "C. approving – Present participle; wrong form.",
             "D. being approved – Continuous passive; not idiomatic here."
         ]
@@ -38,7 +38,7 @@ const quiz: Question[] = [
         ans: 1,
         expl: [
             "A. he think – No auxiliary inversion; verb form wrong.",
-            "B. did he think – ✅ Correct; negative adverbial 'Little' triggers inversion with 'did'.",
+            "B. did he think – negative adverbial 'Little' triggers inversion with 'did'.",
             "C. he thought – No inversion after negative adverbial.",
             "D. had he thought – Past perfect; changes the meaning to a prior time."
         ]
@@ -48,7 +48,7 @@ const quiz: Question[] = [
         opts: ["A. has", "B. have", "C. had", "D. will"],
         ans: 0,
         expl: [
-            "A. has – ✅ Correct; singular noun phrase 'such an intricate theorem' requires 'has' in present perfect.",
+            "A. has – singular noun phrase 'such an intricate theorem' requires 'has' in present perfect.",
             "B. have – Plural verb; subject is singular.",
             "C. had – Past perfect; tense mismatch with context.",
             "D. will – Future; not compatible with 'been proven'."
@@ -59,7 +59,7 @@ const quiz: Question[] = [
         opts: ["A. wouldn't be", "B. wouldn't have been", "C. won't be", "D. isn't"],
         ans: 0,
         expl: [
-            "A. wouldn't be – ✅ Correct; mixed conditional (past condition + present consequence).",
+            "A. wouldn't be – mixed conditional (past condition + present consequence).",
             "B. wouldn't have been – Pure third conditional (past consequence), but result is present.",
             "C. won't be – Future simple; wrong timeline.",
             "D. isn't – Simple present; ignores conditional mood."
@@ -72,7 +72,7 @@ const quiz: Question[] = [
         expl: [
             "A. lives – Present simple; does not convey unreality.",
             "B. lived – Past simple; suggests present unreality but ignores duration.",
-            "C. had lived – ✅ Correct; past perfect expresses an unreal past continuing into present.",
+            "C. had lived – past perfect expresses an unreal past continuing into present.",
             "D. has lived – Present perfect; implies reality."
         ]
     },
@@ -81,7 +81,7 @@ const quiz: Question[] = [
         opts: ["A. have been", "B. has been", "C. is", "D. are"],
         ans: 0,
         expl: [
-            "A. have been – ✅ Correct; 'data' is treated as plural, passive perfect needed before inversion.",
+            "A. have been – 'data' is treated as plural, passive perfect needed before inversion.",
             "B. has been – Singular verb; many style guides prefer plural for 'data'.",
             "C. is – Present simple; lacks perfect aspect.",
             "D. are – Present simple plural; lacks perfect aspect."
@@ -93,7 +93,7 @@ const quiz: Question[] = [
         ans: 1,
         expl: [
             "A. is – Indicative; not correct in a mandative clause.",
-            "B. be – ✅ Correct; subjunctive after verbs like 'insist'.",
+            "B. be – subjunctive after verbs like 'insist'.",
             "C. was – Past indicative; wrong mood.",
             "D. will be – Future; not used in subjunctive constructions."
         ]
@@ -104,7 +104,7 @@ const quiz: Question[] = [
         ans: 1,
         expl: [
             "A. he had begun – No inversion after 'no sooner'.",
-            "B. had he begun – ✅ Correct; 'No sooner' requires inversion with past perfect.",
+            "B. had he begun – 'No sooner' requires inversion with past perfect.",
             "C. did he begin – Uses simple past; pattern demands past perfect.",
             "D. begun he – Incorrect word order and form."
         ]
@@ -115,7 +115,7 @@ const quiz: Question[] = [
         ans: 1,
         expl: [
             "A. didn't they – Negative tag; main clause is already negative in meaning.",
-            "B. did they – ✅ Correct positive tag after a negative-meaning clause ('hardly').",
+            "B. did they – positive tag after a negative-meaning clause ('hardly').",
             "C. weren't they – Wrong verb and complement.",
             "D. were they – Positive tag but wrong verb form ('were' vs. 'did')."
         ]
@@ -125,7 +125,7 @@ const quiz: Question[] = [
         opts: ["A. would have been", "B. will be", "C. had been", "D. would be"],
         ans: 0,
         expl: [
-            "A. would have been – ✅ Correct; past unreal result in third conditional inversion.",
+            "A. would have been – past unreal result in third conditional inversion.",
             "B. will be – Future; inconsistent with past context.",
             "C. had been – Past perfect; omits conditional modality.",
             "D. would be – Present/future result; timeline mismatch."
@@ -136,7 +136,7 @@ const quiz: Question[] = [
         opts: ["A. be", "B. is", "C. was", "D. will be"],
         ans: 0,
         expl: [
-            "A. be – ✅ Correct; mandative subjunctive.",
+            "A. be – mandative subjunctive.",
             "B. is – Indicative mood; not strong enough for demand.",
             "C. was – Past indicative; wrong tense and mood.",
             "D. will be – Future; not used in this structure."
@@ -148,7 +148,7 @@ const quiz: Question[] = [
         ans: 1,
         expl: [
             "A. have – Plural verb; 'each' takes singular.",
-            "B. has – ✅ Correct; singular verb agrees with 'each'.",
+            "B. has – singular verb agrees with 'each'.",
             "C. are having – Progressive; not idiomatic here.",
             "D. having – Participle; lacks a finite verb."
         ]
@@ -158,7 +158,7 @@ const quiz: Question[] = [
         opts: ["A. is", "B. are", "C. were", "D. be"],
         ans: 0,
         expl: [
-            "A. is – ✅ Correct; 'neither' takes a singular verb.",
+            "A. is – 'neither' takes a singular verb.",
             "B. are – Plural verb; disagreement.",
             "C. were – Past tense; context is present.",
             "D. be – Subjunctive; not required here."
@@ -170,7 +170,7 @@ const quiz: Question[] = [
         ans: 1,
         expl: [
             "A. will work – Simple future; ignores completed duration.",
-            "B. will have worked – ✅ Correct; future perfect for a duration completed at a future point.",
+            "B. will have worked – future perfect for a duration completed at a future point.",
             "C. has worked – Present perfect; reference point is future.",
             "D. had worked – Past perfect; wrong timeframe."
         ]
@@ -180,7 +180,7 @@ const quiz: Question[] = [
         opts: ["A. had he begun", "B. he had begun", "C. did he begin", "D. begun he"],
         ans: 0,
         expl: [
-            "A. had he begun – ✅ Correct inversion with 'scarcely' + past perfect.",
+            "A. had he begun – inversion with 'scarcely' + past perfect.",
             "B. he had begun – No inversion; incorrect.",
             "C. did he begin – Simple past; wrong pattern.",
             "D. begun he – Incorrect order and form."
@@ -193,7 +193,7 @@ const quiz: Question[] = [
         expl: [
             "A. are – Plural; primary subject 'professor' is singular.",
             "B. were – Past tense; context implies present.",
-            "C. is – ✅ Correct; 'along with' is parenthetical and doesn't affect number.",
+            "C. is – 'along with' is parenthetical and doesn't affect number.",
             "D. have been – Present perfect plural; conflicts with singular subject."
         ]
     },
@@ -203,7 +203,7 @@ const quiz: Question[] = [
         ans: 1,
         expl: [
             "A. should be – Acceptable, but more explicit than necessary.",
-            "B. be – ✅ Correct bare subjunctive after 'proposed'.",
+            "B. be – bare subjunctive after 'proposed'.",
             "C. is – Indicative; not used in formal proposal.",
             "D. will be – Future; wrong mood."
         ]
@@ -215,7 +215,7 @@ const quiz: Question[] = [
         expl: [
             "A. the CEO makes – No inversion.",
             "B. makes the CEO – Inversion but verb position awkward and wrong tense.",
-            "C. has the CEO made – ✅ Correct; inversion with present perfect.",
+            "C. has the CEO made – inversion with present perfect.",
             "D. the CEO has made – No inversion."
         ]
     },
@@ -225,7 +225,7 @@ const quiz: Question[] = [
         ans: 1,
         expl: [
             "A. must – Lacks inversion; needs auxiliary before subject.",
-            "B. should – ✅ Correct; 'Under no circumstances' triggers inversion: 'should it be leaked'.",
+            "B. should – 'Under no circumstances' triggers inversion: 'should it be leaked'.",
             "C. may – 'May it be leaked' is overly formal and less idiomatic.",
             "D. shall – Archaic and less natural; still needs inversion."
         ]
