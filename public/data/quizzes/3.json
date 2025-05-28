@@ -1,0 +1,122 @@
+[
+  {
+    "q": "1. My bike, _____ I bought last year, is already broken.",
+    "opts": ["A. that", "B. which", "C. what", "D. where"],
+    "ans": 1,
+    "expl": "which – Non-defining relative clauses for things take “which,” not “that.”"
+  },
+  {
+    "q": "2. She didn’t tell me _____ she had finished the report.",
+    "opts": ["A. that", "B. what", "C. whether", "D. why"],
+    "ans": 0,
+    "expl": "that – Reporting verbs are usually followed by an object noun clause introduced by “that.”"
+  },
+  {
+    "q": "3. Call me as soon as you _____ home.",
+    "opts": ["A. will get", "B. get", "C. got", "D. had got"],
+    "ans": 1,
+    "expl": "get – Time clauses with “as soon as” use the present simple for future meaning."
+  },
+  {
+    "q": "4. If I _____ the answer, I would tell you.",
+    "opts": ["A. know", "B. knew", "C. had known", "D. would know"],
+    "ans": 1,
+    "expl": "knew – Second-conditional sentences use the past simple in the if-clause to show an unreal present situation."
+  },
+  {
+    "q": "5. My sister, _____ lives in London, is coming to visit.",
+    "opts": ["A. who", "B. which", "C. whom", "D. whose"],
+    "ans": 0,
+    "expl": "who – A non-defining relative clause referring to a person requires “who.”"
+  },
+  {
+    "q": "6. _____ he was tired, he kept working.",
+    "opts": ["A. Because", "B. Although", "C. Since", "D. If"],
+    "ans": 1,
+    "expl": "Although – Introduces a concessive adverbial clause expressing contrast."
+  },
+  {
+    "q": "7. _____ she will pass the exam remains uncertain.",
+    "opts": ["A. Whether", "B. If", "C. That", "D. What"],
+    "ans": 0,
+    "expl": "Whether – Subject noun clauses that present alternatives are introduced by “whether.”"
+  },
+  {
+    "q": "8. He whispered so that he _____ wake the baby.",
+    "opts": ["A. didn't", "B. wouldn't", "C. couldn't", "D. won't"],
+    "ans": 1,
+    "expl": "wouldn't – Purpose clauses with “so that” often use “would(n’t)” to show intended (non-)results."
+  },
+  {
+    "q": "9. The professor _____ I spoke was very helpful.",
+    "opts": ["A. who", "B. that", "C. to which", "D. to whom"],
+    "ans": 3,
+    "expl": "to whom – Formal style keeps the preposition before the relative pronoun when referring to people."
+  },
+  {
+    "q": "10. The book _____ lies on the table is mine.",
+    "opts": ["A. which", "B. what", "C. who", "D. where"],
+    "ans": 0,
+    "expl": "which – A defining relative clause for a thing requires “which”; other choices are ungrammatical here."
+  },
+  {
+    "q": "11. If he had taken the medicine, he _____ better now.",
+    "opts": ["A. will feel", "B. would feel", "C. felt", "D. would have felt"],
+    "ans": 1,
+    "expl": "would feel – A mixed (third + second) conditional uses past perfect in the if-clause and “would” + base verb for a present result."
+  },
+  {
+    "q": "12. He spoke so quietly that nobody _____ him.",
+    "opts": ["A. hear", "B. heard", "C. hears", "D. had heard"],
+    "ans": 1,
+    "expl": "heard – The result clause refers to a past event, so the simple past is required."
+  },
+  {
+    "q": "13. It is important that she _____ on time.",
+    "opts": ["A. arrives", "B. will arrive", "C. arrive", "D. arrived"],
+    "ans": 2,
+    "expl": "arrive – The mandative subjunctive after adjectives like “important” takes the base form."
+  },
+  {
+    "q": "14. If it _____ tomorrow, we'll stay indoors.",
+    "opts": ["A. rains", "B. will rain", "C. rained", "D. is raining"],
+    "ans": 0,
+    "expl": "rains – First-conditional sentences use the present simple in the if-clause to refer to a future possibility."
+  },
+  {
+    "q": "15. Students _____ late will not be allowed in.",
+    "opts": ["A. arrive", "B. arriving", "C. having arrived", "D. arrived"],
+    "ans": 1,
+    "expl": "arriving – A reduced defining relative clause uses the present participle for an ongoing action."
+  },
+  {
+    "q": "16. Mr. Brown, _____ car was stolen, reported it to the police.",
+    "opts": ["A. whose", "B. who's", "C. which", "D. that"],
+    "ans": 0,
+    "expl": "whose – The relative pronoun “whose” shows possession in both defining and non-defining clauses."
+  },
+  {
+    "q": "17. I suggest that he _____ more exercise.",
+    "opts": ["A. takes", "B. take", "C. will take", "D. took"],
+    "ans": 1,
+    "expl": "take – After verbs of suggestion, the subjunctive base form is used (no –s)."
+  },
+  {
+    "q": "18. If water _____ frozen, it expands.",
+    "opts": ["A. is", "B. was", "C. will be", "D. has been"],
+    "ans": 0,
+    "expl": "is – Zero-conditional sentences for general truths use the present simple in both clauses."
+  },
+  {
+    "q": "19. He failed the test because he _____.",
+    "opts": ["A. didn't study", "B. doesn't study", "C. hadn't studied", "D. won't study"],
+    "ans": 2,
+    "expl": "hadn't studied – The past perfect shows the cause happened before the past result."
+  },
+  {
+    "q": "20. January is the month _____ many people make resolutions.",
+    "opts": ["A. which", "B. when", "C. where", "D. that"],
+    "ans": 1,
+    "expl": "when – For a noun of time, the appropriate relative adverb is “when,” equivalent to “in which.”"
+  }
+]
