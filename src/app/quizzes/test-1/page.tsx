@@ -80,6 +80,12 @@ export default function GrammarQuizPage() {
     setSubmitted(true);
   };
 
+  const handleReset = () => {
+    setAnswers({});
+    setSubmitted(false);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   const score = submitted ? quiz.reduce((sum, q, i) => sum + (answers[i] === q.ans ? 1 : 0), 0) : 0;
 
   if (!isMounted) {
@@ -145,6 +151,9 @@ export default function GrammarQuizPage() {
       {submitted && (
         <div className="score-summary">
           Your Score: {score} / {quiz.length}
+          <button type="button" onClick={handleReset} className="reset-button">
+            Reset Quiz
+          </button>
         </div>
       )}
 
@@ -342,6 +351,19 @@ export default function GrammarQuizPage() {
           height: 1.1em;
           vertical-align: middle;
           margin-right: 6px;
+        }
+        
+        .reset-button {
+          margin-top: 15px;
+          background: #888 !important;
+        }
+        
+        .light-mode .reset-button:hover {
+          background: #666 !important;
+        }
+        
+        .dark-mode .reset-button:hover {
+          background: #555 !important;
         }
       `}</style>
     </div>
