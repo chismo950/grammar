@@ -3,220 +3,120 @@
     "q": "1. If it _____ the sudden storm, the match would have continued.",
     "opts": ["A. weren't for", "B. hadn't been for", "C. were not", "D. hadn't been"],
     "ans": 1,
-    "expl": [
-      "A. weren't for – Missing 'had'; used for present unreal situations.",
-      "B. hadn't been for – 'If it hadn't been for' expresses a past unreal condition.",
-      "C. were not – Lacks the preposition 'for' and uses present subjunctive, not past unreal.",
-      "D. hadn't been – Omits 'for'; the idiom requires 'for'."
-    ]
+    "expl": "hadn't been for – 'If it hadn't been for' expresses a past unreal condition."
   },
   {
     "q": "2. Were the budget _____, the project could commence next month.",
     "opts": ["A. to approve", "B. approved", "C. approving", "D. being approved"],
     "ans": 1,
-    "expl": [
-      "A. to approve – Infinitive; needs past participle.",
-      "B. approved – inversion with 'were' + past participle expresses a hypothetical condition.",
-      "C. approving – Present participle; wrong form.",
-      "D. being approved – Continuous passive; not idiomatic here."
-    ]
+    "expl": "approved – inversion with 'were' + past participle expresses a hypothetical condition."
   },
   {
     "q": "3. Little _____ about the consequences when he signed the contract.",
     "opts": ["A. he think", "B. did he think", "C. he thought", "D. had he thought"],
     "ans": 1,
-    "expl": [
-      "A. he think – No auxiliary inversion; verb form wrong.",
-      "B. did he think – negative adverbial 'Little' triggers inversion with 'did'.",
-      "C. he thought – No inversion after negative adverbial.",
-      "D. had he thought – Past perfect; changes the meaning to a prior time."
-    ]
+    "expl": "did he think – negative adverbial 'Little' triggers inversion with 'did'."
   },
   {
     "q": "4. Rarely _____ such an intricate theorem been proven so elegantly.",
     "opts": ["A. has", "B. have", "C. had", "D. will"],
     "ans": 0,
-    "expl": [
-      "A. has – singular noun phrase 'such an intricate theorem' requires 'has' in present perfect.",
-      "B. have – Plural verb; subject is singular.",
-      "C. had – Past perfect; tense mismatch with context.",
-      "D. will – Future; not compatible with 'been proven'."
-    ]
+    "expl": "has – singular noun phrase 'such an intricate theorem' requires 'has' in present perfect."
   },
   {
     "q": "5. If she had taken my advice, she _____ facing bankruptcy now.",
     "opts": ["A. wouldn't be", "B. wouldn't have been", "C. won't be", "D. isn't"],
     "ans": 0,
-    "expl": [
-      "A. wouldn't be – mixed conditional (past condition + present consequence).",
-      "B. wouldn't have been – Pure third conditional (past consequence), but result is present.",
-      "C. won't be – Future simple; wrong timeline.",
-      "D. isn't – Simple present; ignores conditional mood."
-    ]
+    "expl": "wouldn't be – mixed conditional (past condition + present consequence)."
   },
   {
     "q": "6. He speaks Italian as though he _____ in Rome for years.",
     "opts": ["A. lives", "B. lived", "C. had lived", "D. has lived"],
     "ans": 2,
-    "expl": [
-      "A. lives – Present simple; does not convey unreality.",
-      "B. lived – Past simple; suggests present unreality but ignores duration.",
-      "C. had lived – past perfect expresses an unreal past continuing into present.",
-      "D. has lived – Present perfect; implies reality."
-    ]
+    "expl": "had lived – past perfect expresses an unreal past continuing into present."
   },
   {
     "q": "7. Not until the data _____ thoroughly analysed will the report be released.",
     "opts": ["A. have been", "B. has been", "C. is", "D. are"],
     "ans": 0,
-    "expl": [
-      "A. have been – 'data' is treated as plural, passive perfect needed before inversion.",
-      "B. has been – Singular verb; many style guides prefer plural for 'data'.",
-      "C. is – Present simple; lacks perfect aspect.",
-      "D. are – Present simple plural; lacks perfect aspect."
-    ]
+    "expl": "have been – 'data' is treated as plural, passive perfect needed before inversion."
   },
   {
     "q": "8. The committee insisted that the proposal _____ rewritten before submission.",
     "opts": ["A. is", "B. be", "C. was", "D. will be"],
     "ans": 1,
-    "expl": [
-      "A. is – Indicative; not correct in a mandative clause.",
-      "B. be – subjunctive after verbs like 'insist'.",
-      "C. was – Past indicative; wrong mood.",
-      "D. will be – Future; not used in subjunctive constructions."
-    ]
+    "expl": "be – subjunctive after verbs like 'insist'."
   },
   {
     "q": "9. No sooner _____ the speech than the lights went out.",
     "opts": ["A. he had begun", "B. had he begun", "C. did he begin", "D. begun he"],
     "ans": 1,
-    "expl": [
-      "A. he had begun – No inversion after 'no sooner'.",
-      "B. had he begun – 'No sooner' requires inversion with past perfect.",
-      "C. did he begin – Uses simple past; pattern demands past perfect.",
-      "D. begun he – Incorrect word order and form."
-    ]
+    "expl": "had he begun – 'No sooner' requires inversion with past perfect."
   },
   {
     "q": "10. Hardly anyone realized how crucial the issue was, _____?",
     "opts": ["A. didn't they", "B. did they", "C. weren't they", "D. were they"],
     "ans": 1,
-    "expl": [
-      "A. didn't they – Negative tag; main clause is already negative in meaning.",
-      "B. did they – positive tag after a negative-meaning clause ('hardly').",
-      "C. weren't they – Wrong verb and complement.",
-      "D. were they – Positive tag but wrong verb form ('were' vs. 'did')."
-    ]
+    "expl": "did they – positive tag after a negative-meaning clause ('hardly')."
   },
   {
     "q": "11. Had it not been for his timely intervention, the project _____ derailed.",
     "opts": ["A. would have been", "B. will be", "C. had been", "D. would be"],
     "ans": 0,
-    "expl": [
-      "A. would have been – past unreal result in third conditional inversion.",
-      "B. will be – Future; inconsistent with past context.",
-      "C. had been – Past perfect; omits conditional modality.",
-      "D. would be – Present/future result; timeline mismatch."
-    ]
+    "expl": "would have been – past unreal result in third conditional inversion."
   },
   {
     "q": "12. The manager demanded that every document _____ verified by noon.",
     "opts": ["A. be", "B. is", "C. was", "D. will be"],
     "ans": 0,
-    "expl": [
-      "A. be – mandative subjunctive.",
-      "B. is – Indicative mood; not strong enough for demand.",
-      "C. was – Past indicative; wrong tense and mood.",
-      "D. will be – Future; not used in this structure."
-    ]
+    "expl": "be – mandative subjunctive."
   },
   {
     "q": "13. Each of the solutions _____ advantages and disadvantages that must be weighed.",
     "opts": ["A. have", "B. has", "C. are having", "D. having"],
     "ans": 1,
-    "expl": [
-      "A. have – Plural verb; 'each' takes singular.",
-      "B. has – singular verb agrees with 'each'.",
-      "C. are having – Progressive; not idiomatic here.",
-      "D. having – Participle; lacks a finite verb."
-    ]
+    "expl": "has – singular verb agrees with 'each'."
   },
   {
     "q": "14. Neither of the proposals, as far as I'm concerned, _____ viable.",
     "opts": ["A. is", "B. are", "C. were", "D. be"],
     "ans": 0,
-    "expl": [
-      "A. is – 'neither' takes a singular verb.",
-      "B. are – Plural verb; disagreement.",
-      "C. were – Past tense; context is present.",
-      "D. be – Subjunctive; not required here."
-    ]
+    "expl": "is – 'neither' takes a singular verb."
   },
   {
     "q": "15. By the end of this year, she _____ at the company for a decade.",
     "opts": ["A. will work", "B. will have worked", "C. has worked", "D. had worked"],
     "ans": 1,
-    "expl": [
-      "A. will work – Simple future; ignores completed duration.",
-      "B. will have worked – future perfect for a duration completed at a future point.",
-      "C. has worked – Present perfect; reference point is future.",
-      "D. had worked – Past perfect; wrong timeframe."
-    ]
+    "expl": "will have worked – future perfect for a duration completed at a future point."
   },
   {
     "q": "16. Scarcely _____ to speak when the microphone failed.",
     "opts": ["A. had he begun", "B. he had begun", "C. did he begin", "D. begun he"],
     "ans": 0,
-    "expl": [
-      "A. had he begun – inversion with 'scarcely' + past perfect.",
-      "B. he had begun – No inversion; incorrect.",
-      "C. did he begin – Simple past; wrong pattern.",
-      "D. begun he – Incorrect order and form."
-    ]
+    "expl": "had he begun – inversion with 'scarcely' + past perfect."
   },
   {
     "q": "17. The professor, along with his assistants, _____ preparing the experiment.",
     "opts": ["A. are", "B. were", "C. is", "D. have been"],
     "ans": 2,
-    "expl": [
-      "A. are – Plural; primary subject 'professor' is singular.",
-      "B. were – Past tense; context implies present.",
-      "C. is – 'along with' is parenthetical and doesn't affect number.",
-      "D. have been – Present perfect plural; conflicts with singular subject."
-    ]
+    "expl": "is – 'along with' is parenthetical and doesn't affect number."
   },
   {
     "q": "18. It was proposed that a new committee _____ elected.",
     "opts": ["A. should be", "B. be", "C. is", "D. will be"],
     "ans": 1,
-    "expl": [
-      "A. should be – Acceptable, but more explicit than necessary.",
-      "B. be – bare subjunctive after 'proposed'.",
-      "C. is – Indicative; not used in formal proposal.",
-      "D. will be – Future; wrong mood."
-    ]
+    "expl": "be – bare subjunctive after 'proposed'."
   },
   {
     "q": "19. Seldom _____ such a persuasive argument presented to the board.",
     "opts": ["A. the CEO makes", "B. makes the CEO", "C. has the CEO made", "D. the CEO has made"],
     "ans": 2,
-    "expl": [
-      "A. the CEO makes – No inversion.",
-      "B. makes the CEO – Inversion but verb position awkward and wrong tense.",
-      "C. has the CEO made – inversion with present perfect.",
-      "D. the CEO has made – No inversion."
-    ]
+    "expl": "has the CEO made – inversion with present perfect."
   },
   {
     "q": "20. The report is confidential; under no circumstances _____ it be leaked.",
     "opts": ["A. must", "B. should", "C. may", "D. shall"],
     "ans": 1,
-    "expl": [
-      "A. must – Lacks inversion; needs auxiliary before subject.",
-      "B. should – 'Under no circumstances' triggers inversion: 'should it be leaked'.",
-      "C. may – 'May it be leaked' is overly formal and less idiomatic.",
-      "D. shall – Archaic and less natural; still needs inversion."
-    ]
+    "expl": "should – 'Under no circumstances' triggers inversion: 'should it be leaked'."
   }
 ] 

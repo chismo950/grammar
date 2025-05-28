@@ -186,7 +186,7 @@ export default function GrammarQuizPage({ params }: PageProps) {
               </div>
               {submitted && (
                 <div className="explanation">
-                  <b>Explanation:</b> {item.expl[item.ans]}
+                  <b>Explanation:</b> {item.expl}
                 </div>
               )}
             </div>

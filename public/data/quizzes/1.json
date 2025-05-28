@@ -3,120 +3,120 @@
     "q": "1. If he _____ earlier, he wouldn't have missed the train.",
     "opts": ["A. left", "B. had left", "C. leaves", "D. would have left"],
     "ans": 1,
-    "expl": ["A. left – Simple past; not correct for third conditional.", "B. had left – past perfect is required in third conditional.", "C. leaves – Present tense; incorrect in this context.", "D. would have left – Wrong tense for this part of the conditional."]
+    "expl": "had left – past perfect is required in third conditional."
   },
   {
     "q": "2. I wish I _____ how to solve this problem.",
     "opts": ["A. know", "B. knew", "C. have known", "D. will know"],
     "ans": 1,
-    "expl": ["A. know – Present tense; 'wish' for present uses past tense.", "B. knew – past tense expresses a present unreal situation.", "C. have known – Present perfect; not used after 'wish'.", "D. will know – Future; incorrect after 'wish'."]
+    "expl": "knew – past tense expresses a present unreal situation."
   },
   {
     "q": "3. Hardly _____ the bell rung when the students rushed out.",
     "opts": ["A. has", "B. had", "C. did", "D. have"],
     "ans": 1,
-    "expl": ["A. has – Present perfect; wrong tense.", "B. had – after 'hardly', use past perfect.", "C. did – Simple past; not suitable here.", "D. have – Plural present; not suitable here."]
+    "expl": "had – after 'hardly', use past perfect."
   },
   {
     "q": "4. The man _____ wallet was stolen reported the theft.",
     "opts": ["A. who's", "B. whose", "C. whom", "D. who"],
     "ans": 1,
-    "expl": ["A. who's – Contraction for 'who is'; incorrect.", "B. whose – possessive relative pronoun.", "C. whom – Object pronoun; not possessive.", "D. who – Subject pronoun; not possessive."]
+    "expl": "whose – possessive relative pronoun."
   },
   {
     "q": "5. I prefer tea _____ coffee.",
     "opts": ["A. than", "B. from", "C. to", "D. over"],
     "ans": 2,
-    "expl": ["A. than – Used for comparisons, not 'prefer'.", "B. from – Incorrect preposition here.", "C. to – 'prefer A to B' is standard.", "D. over – Informal but less standard."]
+    "expl": "to – 'prefer A to B' is standard."
   },
   {
     "q": "6. Neither the teacher nor the students _____ ready.",
     "opts": ["A. is", "B. are", "C. was", "D. be"],
     "ans": 1,
-    "expl": ["A. is – Incorrect; 'students' is plural and closest to verb.", "B. are – verb agrees with the nearest subject.", "C. was – Wrong tense and number.", "D. be – Not a proper verb form here."]
+    "expl": "are – verb agrees with the nearest subject."
   },
   {
     "q": "7. He talks as if he _____ everything.",
     "opts": ["A. knows", "B. know", "C. knew", "D. had known"],
     "ans": 2,
-    "expl": ["A. knows – Present tense; doesn't express unreality.", "B. know – Wrong verb form.", "C. knew – 'as if' for unreal present uses past tense.", "D. had known – Past perfect; incorrect here."]
+    "expl": "knew – 'as if' for unreal present uses past tense."
   },
   {
     "q": "8. She suggested that he _____ to the doctor.",
     "opts": ["A. goes", "B. go", "C. will go", "D. gone"],
     "ans": 1,
-    "expl": ["A. goes – Present simple; not subjunctive.", "B. go – subjunctive after 'suggest'.", "C. will go – Future; not used after 'suggest that'.", "D. gone – Past participle; incorrect here."]
+    "expl": "go – subjunctive after 'suggest'."
   },
   {
     "q": "9. Not only _____ late, but he also forgot his book.",
     "opts": ["A. he arrived", "B. did he arrive", "C. arrived he", "D. he did arrive"],
     "ans": 1,
-    "expl": ["A. he arrived – No inversion after 'not only' at the start.", "B. did he arrive – inversion after 'not only' at the start.", "C. arrived he – Wrong word order.", "D. he did arrive – Incorrect structure."]
+    "expl": "did he arrive – inversion after 'not only' at the start."
   },
   {
     "q": "10. The book, together with the notes, _____ missing.",
     "opts": ["A. are", "B. were", "C. is", "D. have been"],
     "ans": 2,
-    "expl": ["A. are – Plural; but subject is singular.", "B. were – Plural; same as above.", "C. is – 'together with' doesn't change subject number.", "D. have been – Present perfect plural; subject is singular."]
+    "expl": "is – 'together with' doesn't change subject number."
   },
   {
     "q": "11. Scarcely _____ the train left when it began to rain.",
     "opts": ["A. did", "B. has", "C. had", "D. have"],
     "ans": 2,
-    "expl": ["A. did – Simple past; incorrect after 'scarcely'.", "B. has – Present perfect; wrong tense.", "C. had – past perfect after 'scarcely'.", "D. have – Not correct here."]
+    "expl": "had – past perfect after 'scarcely'."
   },
   {
     "q": "12. It's high time you _____ to bed.",
     "opts": ["A. go", "B. went", "C. have gone", "D. gone"],
     "ans": 1,
-    "expl": ["A. go – Present tense; not correct after 'it's high time'.", "B. went – past tense shows urgency.", "C. have gone – Present perfect; not used here.", "D. gone – Not a valid verb form here."]
+    "expl": "went – past tense shows urgency."
   },
   {
     "q": "13. By the time she arrives, we _____ our work.",
     "opts": ["A. finished", "B. have finished", "C. will have finished", "D. had finished"],
     "ans": 2,
-    "expl": ["A. finished – Simple past; does not fit future reference.", "B. have finished – Present perfect; not for future reference.", "C. will have finished – future perfect for something completed before another future event.", "D. had finished – Past perfect; for past, not future."]
+    "expl": "will have finished – future perfect for something completed before another future event."
   },
   {
     "q": "14. Each of the boys _____ given a present.",
     "opts": ["A. have", "B. was", "C. were", "D. are"],
     "ans": 1,
-    "expl": ["A. have – Plural; incorrect after 'each'.", "B. was – 'each' takes singular verb.", "C. were – Plural; not correct.", "D. are – Plural; not correct."]
+    "expl": "was – 'each' takes singular verb."
   },
   {
     "q": "15. Had I seen him, I _____ hello.",
     "opts": ["A. would say", "B. would have said", "C. had said", "D. will say"],
     "ans": 1,
-    "expl": ["A. would say – Wrong tense for past unreal.", "B. would have said – past unreal condition.", "C. had said – Incorrect; not the right conditional form.", "D. will say – Simple future; not correct here."]
+    "expl": "would have said – past unreal condition."
   },
   {
     "q": "16. He denied _____ the window.",
     "opts": ["A. breaking", "B. to break", "C. break", "D. to have broken"],
     "ans": 0,
-    "expl": ["A. breaking – 'deny' is followed by gerund.", "B. to break – Infinitive; not used after 'deny'.", "C. break – Bare infinitive; incorrect here.", "D. to have broken – Perfect infinitive; not common after 'deny'."]
+    "expl": "breaking – 'deny' is followed by gerund."
   },
   {
     "q": "17. She is one of the students who _____ always late.",
     "opts": ["A. is", "B. was", "C. are", "D. has been"],
     "ans": 2,
-    "expl": ["A. is – Would refer to 'one', not 'students'.", "B. was – Wrong tense and number.", "C. are – 'who' refers to 'students' (plural).", "D. has been – Singular present perfect; not correct."]
+    "expl": "are – 'who' refers to 'students' (plural)."
   },
   {
     "q": "18. This is the best movie I _____.",
     "opts": ["A. ever saw", "B. had ever seen", "C. have ever seen", "D. ever see"],
     "ans": 2,
-    "expl": ["A. ever saw – Simple past; should use present perfect.", "B. had ever seen – Past perfect; used with another past event.", "C. have ever seen – present perfect with superlative.", "D. ever see – Present simple; not correct here."]
+    "expl": "have ever seen – present perfect with superlative."
   },
   {
     "q": "19. I look forward to _____ from you soon.",
     "opts": ["A. hear", "B. hearing", "C. heard", "D. to hear"],
     "ans": 1,
-    "expl": ["A. hear – Bare infinitive; not used after 'look forward to'.", "B. hearing – 'to' is a preposition, followed by gerund.", "C. heard – Past tense; not correct here.", "D. to hear – Infinitive; not used here."]
+    "expl": "hearing – 'to' is a preposition, followed by gerund."
   },
   {
     "q": "20. No sooner had he left _____ it started to rain.",
     "opts": ["A. than", "B. when", "C. then", "D. but"],
     "ans": 0,
-    "expl": ["A. than – 'No sooner... than' is the correct structure.", "B. when – Often confused, but incorrect here.", "C. then – Incorrect structure.", "D. but – Incorrect connector."]
+    "expl": "than – 'No sooner... than' is the correct structure."
   }
 ] 
