@@ -308,10 +308,12 @@ export default function GrammarQuizPage() {
                   <label
                     key={j}
                     className={
-                      submitted && selected === j
+                      submitted 
                         ? j === item.ans
-                          ? 'selected-correct'
-                          : 'selected-incorrect'
+                          ? 'selected-correct' 
+                          : selected === j 
+                            ? 'selected-incorrect'
+                            : ''
                         : ''
                     }
                   >
@@ -327,18 +329,6 @@ export default function GrammarQuizPage() {
               </div>
               {submitted && (
                 <>
-                  {selected == null ? (
-                    <div className="feedback incorrect">
-                      No answer selected.<br />
-                      <b>Correct answer:</b> {item.opts[item.ans]}
-                    </div>
-                  ) : (
-                    <div className={`feedback ${isCorrect ? 'correct' : 'incorrect'}`}>
-                      {isCorrect ? 'Correct!' : 'Incorrect.'}<br />
-                      <b>Your answer:</b> {item.opts[selected]}<br />
-                      <b>Correct answer:</b> {item.opts[item.ans]}
-                    </div>
-                  )}
                   <div className="explanation">
                     <b>Explanation:</b> {item.expl[item.ans]}
                   </div>
