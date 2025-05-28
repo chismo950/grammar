@@ -299,7 +299,6 @@ export default function GrammarQuizPage() {
       <form onSubmit={handleSubmit} noValidate>
         {quiz.map((item, i) => {
           const selected = answers[i];
-          const isCorrect = submitted && selected === item.ans;
           return (
             <div key={i} className="question">
               <strong>{item.q}</strong>
