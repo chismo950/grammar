@@ -262,14 +262,14 @@ export default function GrammarQuizPage() {
   }, []);
 
   useEffect(() => {
-    const saved = localStorage.getItem('grammar_quiz_answers');
+    const saved = localStorage.getItem('grammar_quiz_answers_2');
     if (saved) {
       setAnswers(JSON.parse(saved));
     }
   }, []);
 
   useEffect(() => {
-    localStorage.setItem('grammar_quiz_answers', JSON.stringify(answers));
+    localStorage.setItem('grammar_quiz_answers_2', JSON.stringify(answers));
   }, [answers]);
 
   const handleChange = (index: number, value: number) => {
