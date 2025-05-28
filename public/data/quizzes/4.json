@@ -1,0 +1,122 @@
+[
+  {
+    "q": "1. Hardly had the bell rung _____ the students rushed out.",
+    "opts": ["A. when", "B. than", "C. that", "D. until"],
+    "ans": 0,
+    "expl": "\"Hardly … when\" is the fixed correlative structure used to show that two actions happened almost at the same moment."
+  },
+  {
+    "q": "2. No sooner had we reached the gate _____ it began to rain.",
+    "opts": ["A. when", "B. than", "C. but", "D. until"],
+    "ans": 1,
+    "expl": "\"No sooner … than\" is required; using any other linker breaks the paired-inversion pattern."
+  },
+  {
+    "q": "3. Scarcely had I sat down _____ the phone rang.",
+    "opts": ["A. when", "B. then", "C. that", "D. than"],
+    "ans": 0,
+    "expl": "\"Scarcely … when\" functions like \"hardly … when\" after inversion with past perfect."
+  },
+  {
+    "q": "4. Not until she explained it _____ sense to me.",
+    "opts": ["A. it made", "B. did it make", "C. made it", "D. had it made"],
+    "ans": 1,
+    "expl": "Fronting a negative adverbial (\"Not until …\") forces subject–auxiliary inversion: \"did it make.\""
+  },
+  {
+    "q": "5. Were he to come now, we _____ ready.",
+    "opts": ["A. would be", "B. were", "C. will be", "D. shall be"],
+    "ans": 0,
+    "expl": "In inverted second-conditional sentences (\"Were he to …\"), the result clause uses \"would\" + base verb."
+  },
+  {
+    "q": "6. Should you need help, all you _____ do is ask.",
+    "opts": ["A. will", "B. would", "C. need to", "D. needed"],
+    "ans": 2,
+    "expl": "\"Should\" + subject inversion gives a formal open condition; the main clause keeps the present form \"need to.\""
+  },
+  {
+    "q": "7. The more carefully you read, _____ errors you will make.",
+    "opts": ["A. few", "B. fewer", "C. the fewer", "D. the fewest"],
+    "ans": 2,
+    "expl": "Comparative correlative clauses require the pattern \"the more…, the fewer…\" with the definite article."
+  },
+  {
+    "q": "8. It was the village _____ he grew up that he wanted to visit again.",
+    "opts": ["A. which", "B. in which", "C. where", "D. that"],
+    "ans": 1,
+    "expl": "When the antecedent is object of a preposition, formal style keeps the preposition before the relative pronoun: \"in which.\""
+  },
+  {
+    "q": "9. The reason _____ he left early remains unclear.",
+    "opts": ["A. for which", "B. why", "C. that", "D. because"],
+    "ans": 0,
+    "expl": "After \"reason,\" the most precise formal linker is \"for which\"; \"why\" risks redundancy (reason why)."
+  },
+  {
+    "q": "10. He finished the work, after which he _____ a long walk.",
+    "opts": ["A. took", "B. takes", "C. has taken", "D. had taken"],
+    "ans": 0,
+    "expl": "\"After which\" introduces a non-defining relative clause referring to the previous clause; a simple past verb matches the sequence of events."
+  },
+  {
+    "q": "11. Little did he realise _____ his words would hurt her.",
+    "opts": ["A. what", "B. that", "C. how", "D. whether"],
+    "ans": 1,
+    "expl": "After the inverted adverb \"Little,\" a content clause introduced by \"that\" reports the fact he failed to realise."
+  },
+  {
+    "q": "12. Such was her fear _____ she could hardly speak.",
+    "opts": ["A. so", "B. as", "C. that", "D. than"],
+    "ans": 2,
+    "expl": "\"Such … that\" result clauses pair the degree word \"such\" with the linker \"that\" to show an extreme outcome."
+  },
+  {
+    "q": "13. Whoever _____ responsible must fix the problem at once.",
+    "opts": ["A. is", "B. be", "C. are", "D. was"],
+    "ans": 0,
+    "expl": "\"Whoever\" forms a singular indefinite subject here, so the verb takes singular present form \"is.\""
+  },
+  {
+    "q": "14. He talked as though he _____ the answer all along.",
+    "opts": ["A. knows", "B. knew", "C. had known", "D. know"],
+    "ans": 2,
+    "expl": "\"As though\" for an unreal past situation uses the past perfect: \"had known.\""
+  },
+  {
+    "q": "15. Had it not been for the map, we _____ lost.",
+    "opts": ["A. would have got", "B. had got", "C. would get", "D. got"],
+    "ans": 0,
+    "expl": "An inverted third-conditional (\"Had it not been for …\") requires \"would have\" + past participle in the result clause."
+  },
+  {
+    "q": "16. Each student may choose whichever topic _____ prefer.",
+    "opts": ["A. he", "B. they", "C. he or she", "D. she"],
+    "ans": 1,
+    "expl": "The pronoun refers back to the indefinite singular \"each student\"; singular \"they\" keeps the sentence gender-neutral."
+  },
+  {
+    "q": "17. We will wait here until whoever is in charge _____ .",
+    "opts": ["A. arrives", "B. arrive", "C. will arrive", "D. has arrived"],
+    "ans": 0,
+    "expl": "The verb inside the noun clause headed by \"whoever\" follows normal present-simple agreement: \"arrives.\""
+  },
+  {
+    "q": "18. The man _____ dog barked all night has moved away.",
+    "opts": ["A. whose", "B. who's", "C. which", "D. that"],
+    "ans": 0,
+    "expl": "\"Whose\" introduces a relative clause showing possession: \"whose dog.\""
+  },
+  {
+    "q": "19. Is this the first time _____ you have spoken in public?",
+    "opts": ["A. that", "B. when", "C. which", "D. on which"],
+    "ans": 0,
+    "expl": "\"The first/second time\" is followed by a defining clause introduced by \"that\" (often omitted in speech)."
+  },
+  {
+    "q": "20. What surprises me is not _____ he failed but that he failed so badly.",
+    "opts": ["A. that", "B. why", "C. how", "D. whether"],
+    "ans": 0,
+    "expl": "In contrastive constructions, a content clause headed by \"that\" states the fact being contrasted."
+  }
+]
